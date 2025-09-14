@@ -3,7 +3,7 @@
 from collections import OrderedDict
 from typing import Dict
 from .base import Eviction
-from ..models import CacheItem
+from models import CacheItem
 
 
 class FIFO(Eviction):

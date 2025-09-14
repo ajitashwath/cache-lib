@@ -1,5 +1,10 @@
+import sys
+import os
 import time
 from concurrent.futures import ThreadPoolExecutor
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from cache import InMemoryCache
 
 def benchmark_single_thread():

@@ -1,7 +1,10 @@
 import time
 from dataclasses import dataclass
 from typing import Any, Optional
+import os
+import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 @dataclass
 class CacheItem:
