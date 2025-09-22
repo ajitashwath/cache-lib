@@ -1,6 +1,10 @@
 # In-Memory Cache Library
 A performance, thread-safe in-memory caching library for Python with multiple eviction strategies, TTL support, and comprehensive statistics tracking.
 
+<div align = "center">
+  <img src = "assets/image.png">
+</div>
+
 ## Features
 - **Multiple Eviction Strategies**: LRU, MRU, LFU, FIFO
 - **TTL Support**: Automatic expiration of cached items
